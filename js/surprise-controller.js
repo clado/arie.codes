@@ -22,7 +22,6 @@ var app = angular.module('SurpriseApp', [])
       'studenthood',
       'tail recursion',
       'they/them pronouns',
-      'The Closet\u2122',
       'working at my dream job'
     ]
 
