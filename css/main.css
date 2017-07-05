@@ -32,7 +32,7 @@ header {
   background-color: teal;
 }
 
-#forkIcon {
+#fork-icon {
   position: relative;
   height: 100%;
   width: 100%;
@@ -42,7 +42,7 @@ header {
   font-size: 2em;
 }
 
-#forkIcon > i {
+#fork-icon > i {
   position: absolute;
   bottom: -.2em;
   right: .7em;
@@ -51,7 +51,7 @@ header {
   transition: transform .8s;
 }
 
-#forkText {
+#fork-text {
   z-index: -1;
   position: absolute;
   top: 4.9em;
@@ -67,11 +67,11 @@ header {
   transition: height .4s;
 }
 
-#fork:hover > #forkIcon > i {
+#fork:hover > #fork-icon > i {
   transform: rotate(405deg);
 }
 
-#fork:hover > #forkText {
+#fork:hover > #fork-text {
   height: 1.3em;
 }
 
@@ -116,7 +116,7 @@ nav {
   margin-bottom: 7px;
 }
 
-.navHover {
+.nav-hover {
   height: 5px;
   width: 100%;
   position: absolute;
@@ -138,7 +138,7 @@ nav {
   font-weight: bolder;
 }
 
-.nav-link:hover > .navHover {
+.nav-link:hover > .nav-hover {
   height: 100%;
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
@@ -175,13 +175,13 @@ nav {
   margin: 0px auto;
 }
 
-.resumeDimensions {
+.resume-dimensions {
   min-height: 550px;
   height: 95vh;
   width: 80vw;
 }
 
-#currentResume {
+.resume {
   display: block;
   margin-left: auto;
   margin-right: auto;
