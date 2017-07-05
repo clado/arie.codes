@@ -14,26 +14,12 @@ body {
   font-family: 'Nunito', sans-serif;
 }
 
-article {
-  display: block;
-  text-align: center;
-  height: 50%;
-  width: 70%;
-  position: absolute;
-  top:0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-}
-
 header {
   position: relative;
   font-family: 'Poiret One', cursive;
   text-align: right;
   font-size: 20pt;
   padding: 13px;
-  color: #000;
 }
 
 #fork {
@@ -104,14 +90,6 @@ h3 {
 
 p {
   font-size: 13pt;
-}
-
-.headerBottom {
-  width: auto;
-  height: 37px;
-  overflow: hidden;
-  border-bottom: dotted 5px #000;
-  flex-basis: 100%;
 }
 
 nav {
@@ -195,14 +173,6 @@ nav {
   width: 90%;
   max-width: 42em;
   margin: 0px auto;
-}
-
-.arrows {
-  font-size: 24pt;
-}
-
-.disabled {
-  color: #bbb;
 }
 
 .resumeDimensions {
