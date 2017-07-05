@@ -1,0 +1,14 @@
+<a id="fork" href="https://github.com/clado/clado.github.io">
+  <span id="forkIcon"><i class="fa fa-code-fork"></i></span>
+  <div id="forkText">fork on github</div>
+</a>
+<h1>Arie Van Antwerp</h1>
+<nav>
+  <a class="nav-link" ng-class="::{current: isCurrent(link)}" ng-repeat="link in links" href="{{link.url}}">
+    <div class="nav-link-wrapper">
+      <i ng-if="link.icon" class="fa {{link.icon}}"></i>
+      <span class="{{link.textClass}}">{{link.text}}</span>
+    </div>
+    <div class="navHover {{link.shadeClass}}"></div>
+  </a>
+</nav>
