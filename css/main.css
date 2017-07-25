@@ -22,6 +22,18 @@ header {
   padding: 13px;
 }
 
+.link, .link:active {
+  color: steelblue;
+}
+
+.link:visited {
+  color: teal;
+}
+
+.link:hover {
+  color: orange;
+}
+
 #fork {
   position: absolute;
   top: -2em;
