@@ -22,12 +22,12 @@ angular.module('SurpriseApp')
         shadeClass: 'green'
       },
       {
-        url: 'http://github.com/clado',
+        url: 'https://github.com/clado',
         icon: 'fa-github-square',
         shadeClass: 'blue'
       },
       {
-        url: 'http://linkedin.com/in/ariedva',
+        url: 'https://linkedin.com/in/ariedva',
         icon: 'fa-linkedin-square',
         shadeClass: 'purple'
       }
